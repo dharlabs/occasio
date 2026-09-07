@@ -34,5 +34,7 @@ blob-report/
 # Expo web export output
 apps/*/dist/
 
-# Agent worktrees live here
-.claude/
+# Agent worktrees live here. `.claude/skills/` is tracked on purpose — the skills are repo
+# conventions, and a convention that only exists on one machine is not one.
+.claude/*
+!.claude/skills/
